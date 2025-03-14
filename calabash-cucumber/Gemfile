@@ -1,3 +1,5 @@
 source "https://rubygems.org"
 
+gem 'edn', git: 'https://github.com/bbc/edn-ruby.git', branch: 'master'
+
 gemspec

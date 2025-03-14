@@ -52,7 +52,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency('cucumber')
   # Avoid 1.0.5 release; has an errant 'binding.pry'.
-  s.add_dependency('edn')
+  s.add_dependency('edn', '>= 1.1.2')
   s.add_dependency('slowhandcuke')
   s.add_dependency('geocoder')
   s.add_dependency('httpclient')
